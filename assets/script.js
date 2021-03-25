@@ -13,7 +13,7 @@ var arrayOfQuestions = [
 // FUNCTION DEFINITIONS
 
 function displayQuestion(){
-
+    var questionEl = document.createElement("h1");
 }
 
 // EVENT LISTENERS
