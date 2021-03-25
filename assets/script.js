@@ -9,7 +9,7 @@ var arrayOfQuestions = [
     "String values must be enclosed within ____ when being assigned to variables.",
     "A very useful tool used during development and debugging for printing content to the debugger is:",
 ];
-
+var currentIndex = 0;
 // FUNCTION DEFINITIONS
 
 function displayQuestion(){
@@ -18,7 +18,7 @@ function displayQuestion(){
     // element
     var questionEl = document.createElement("h1");
     // add content
-    questionEl.textContent = arrayOfQuestions[0];
+    questionEl.textContent = arrayOfQuestions[currentIndex];
     // append to existing element
     questionContainer.append(questionEl);
 }
