@@ -1,6 +1,7 @@
 //  DOM VARIABLES 
 var questionContainer = document.getElementById("start-page");
 var correctAnswerButton = document.getElementById("correct-answer");
+
 // JAVASCRIPT VARIABLES 
 var arrayOfQuestions = [
     "Commonly used data types DO NOT include:",
