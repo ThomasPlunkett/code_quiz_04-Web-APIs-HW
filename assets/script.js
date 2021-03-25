@@ -1,4 +1,5 @@
 //  DOM VARIABLES 
+var h1El = document.getElementById("start-page");
 
 // JAVASCRIPT VARIABLES 
 
