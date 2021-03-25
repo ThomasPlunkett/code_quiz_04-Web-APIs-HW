@@ -13,16 +13,21 @@ var arrayOfQuestions = [
 // FUNCTION DEFINITIONS
 
 function displayQuestion(){
+    // clears out previous question
+    questionContainer.innerHTML = "";
+    // element
     var questionEl = document.createElement("h1");
-
+    // add content
     questionEl.textContent = arrayOfQuestions[0];
-
+    // append to existing element
     questionContainer.append(questionEl);
 }
 
 // EVENT LISTENERS
 correctAnswerButton.addEventListener("click", function(){
     console.log("You choose wisely");
+    currentIndex++;
+    displayQuestion();
 })
 
 // FUNCTION CALLS
