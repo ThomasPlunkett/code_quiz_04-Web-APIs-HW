@@ -1,5 +1,5 @@
 //  DOM VARIABLES 
-var h1El = document.getElementById("start-page");
+var questionContainer = document.getElementById("start-page");
 
 // JAVASCRIPT VARIABLES 
 var arrayOfQuestions = [
@@ -16,7 +16,8 @@ function displayQuestion(){
     var questionEl = document.createElement("h1");
 
     questionEl.textContent = arrayOfQuestions[0];
-    
+
+    questionContainer.append(quoteEl);
 }
 
 // EVENT LISTENERS
