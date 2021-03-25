@@ -15,7 +15,7 @@ var arrayOfQuestions = [
 function displayQuestion(){
     var questionEl = document.createElement("h1");
 
-    questionEl.textContent = arrayOfQuestions[2];
+    questionEl.textContent = arrayOfQuestions[0];
 
     questionContainer.append(questionEl);
 }
@@ -24,3 +24,6 @@ function displayQuestion(){
 
 // FUNCTION CALLS
 displayQuestion();
+
+// START PAGE TEXT?
+// "Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!",
