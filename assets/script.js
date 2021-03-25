@@ -14,6 +14,9 @@ var arrayOfQuestions = [
 
 function displayQuestion(){
     var questionEl = document.createElement("h1");
+
+    questionEl.textContent = arrayOfQuestions[0];
+    
 }
 
 // EVENT LISTENERS
