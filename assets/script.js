@@ -23,3 +23,4 @@ function displayQuestion(){
 // EVENT LISTENERS
 
 // FUNCTION CALLS
+displayQuestion();
