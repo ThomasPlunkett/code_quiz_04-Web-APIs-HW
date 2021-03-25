@@ -26,7 +26,12 @@ function displayQuestion(){
 // EVENT LISTENERS
 correctAnswerButton.addEventListener("click", function(){
     console.log("You choose wisely");
-    currentIndex++;
+    // ran a check to cycle through index and test. marked out as note when test successful - b/c I want quiz to have a beginning and conclusion.
+    // if(currentIndex < arrayOfQuestions.length - 1){
+        currentIndex++;
+    // } else {
+    //     currentIndex = 0;
+    // }
     displayQuestion();
 })
 
