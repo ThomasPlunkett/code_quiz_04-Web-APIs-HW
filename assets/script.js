@@ -12,6 +12,10 @@ var arrayOfQuestions = [
 
 // FUNCTION DEFINITIONS
 
+function displayQuestion(){
+
+}
+
 // EVENT LISTENERS
 
 // FUNCTION CALLS
