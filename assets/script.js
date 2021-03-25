@@ -21,6 +21,9 @@ function displayQuestion(){
 }
 
 // EVENT LISTENERS
+correctAnswerButton.addEventListener("click", function(){
+    console.log("You choose wisely");
+})
 
 // FUNCTION CALLS
 displayQuestion();
