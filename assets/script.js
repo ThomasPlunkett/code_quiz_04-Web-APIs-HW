@@ -17,7 +17,7 @@ function displayQuestion(){
 
     questionEl.textContent = arrayOfQuestions[0];
 
-    questionContainer.append(quoteEl);
+    questionContainer.append(questionEl);
 }
 
 // EVENT LISTENERS
