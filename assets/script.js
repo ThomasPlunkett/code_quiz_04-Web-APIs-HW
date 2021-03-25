@@ -1,7 +1,7 @@
 //  DOM VARIABLES 
 var questionContainer = document.getElementById("start-page");
 var correctAnswerButton = document.getElementById("correct-answer");
-
+var incorrectAnswerButton = document.getElementById("incorrect-answer");
 // JAVASCRIPT VARIABLES 
 var arrayOfQuestions = [
     "Commonly used data types DO NOT include:",
@@ -35,7 +35,13 @@ correctAnswerButton.addEventListener("click", function(){
     // }
     displayQuestion();
 })
+incorrectAnswerButton.addEventListener("click", function(){
+    console.log("You choose poorly");
+         
+         currentIndex++;
 
+    displayQuestion();
+})
 // FUNCTION CALLS
 displayQuestion();
 
