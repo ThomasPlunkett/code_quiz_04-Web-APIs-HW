@@ -1,2 +1,9 @@
-console.log("Hello world!");
+//  DOM VARIABLES 
 
+// JAVASCRIPT VARIABLES 
+
+// FUNCTION DEFINITIONS
+
+// EVENT LISTENERS
+
+// FUNCTION CALLS
